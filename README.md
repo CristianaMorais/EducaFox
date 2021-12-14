@@ -8,6 +8,7 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 ## Autores
 * Grupo 7
+
 | Nome                            | Nº Mecanográfico   |
 | ------------------------------- | -------------------| 
 | Cristiana Morais da Silva       | up201505454        |
