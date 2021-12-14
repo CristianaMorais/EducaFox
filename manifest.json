@@ -4,8 +4,11 @@
   "description": "Educação para Segurança e Privacidade na Web.",
   "version": "1",
   "author": "Grupo 7 - Cristiana Silva, Rui santos, Sara Sousa",
-  "browser_action": {"default_icon": "fox.png", "default_title": "EducaFox will take care of You"},
-  "chrome_url_overrides" : {"newtab": "app.html"},
+  "browser_action": {
+    "default_icon": "fox.png", 
+    "default_title": "EducaFox will take care of You"
+    "default_popup": "app.html"
+  },
   "permissions": ["activeTab","storage","<all_urls>"],
   "content_scripts": [
     {
