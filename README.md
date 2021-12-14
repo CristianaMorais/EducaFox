@@ -6,6 +6,7 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 ### Modo de utilização
 
+
 ## Autores
 
 #### Grupo 7
