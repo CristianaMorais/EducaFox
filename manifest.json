@@ -5,7 +5,7 @@
   "version": "1",
   "author": "Grupo 7 - Cristiana Silva, Rui santos, Sara Sousa",
   "browser_action": {
-    "default_icon": "fox.png", 
+    "default_icon": "/icons/fox.png", 
     "default_title": "EducaFox will take care of You",
     "default_popup": "app.html"
   },
