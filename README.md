@@ -23,8 +23,8 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 ##### :busts_in_silhouette: Grupo 7 :busts_in_silhouette:
 
-| Nome                                           | Nº Mecanográfico   |
-| ---------------------------------------------- | -------------------| 
-| :woman: Cristiana Morais da Silva :woman:      | up201505454        |
-| :man: Rui Manuel Rodrigues dos Santos :man:    | up201805317        |
-| :woman: Sara Daniela Ferreira de Sousa :woman: | up201504217        |
+| Nome                                   | Nº Mecanográfico   |
+| ---------------------------------------| -------------------| 
+| :woman: Cristiana Morais da Silva      | up201505454        |
+| :man: Rui Manuel Rodrigues dos Santos  | up201805317        |
+| :woman: Sara Daniela Ferreira de Sousa | up201504217        |
