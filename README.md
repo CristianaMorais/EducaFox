@@ -23,7 +23,7 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 ------------------------------------------------------------------------
 
-### &nbsp; :sparkles: Autores &nbsp; :sparkles:
+### &nbsp; :sparkles: Autores&nbsp; :sparkles:
 
 ##### Grupo 7
 
