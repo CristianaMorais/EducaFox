@@ -1,5 +1,13 @@
 body {
   background-color: #F8A183;
-  width: 600px;
-  height: 300px;
+  width: 500px;
+  height: 400px;
+}
+
+#configuracoes {
+  background-color: aqua;
+}
+
+#ajuda {
+  background-color: aqua;
 }
