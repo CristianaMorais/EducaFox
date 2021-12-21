@@ -16,7 +16,7 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 * Relatório_Grupo_7.pdf
 
-Relatório com a descrição do desenvolvimento do trabalho e as opções tomadas.
+  > Relatório com a descrição do desenvolvimento do trabalho e as opções tomadas.
 
 #### :inbox_tray: Modo de utilização :inbox_tray:
 
