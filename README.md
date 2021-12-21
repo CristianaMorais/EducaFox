@@ -26,7 +26,8 @@ Relatório com a descrição do desenvolvimento do trabalho e as opções tomada
 ### &nbsp; :sparkles: Autores&nbsp; :sparkles:
 
 ##### :busts_in_silhouette: Grupo 7 :busts_in_silhouette:
-
- * [Cristiana Silva] (https://github.com/CristianaMorais) - up201505454         
- * [Rui Santos] (https://github.com/RSantos42)            - up201805317        
- * [Sara Sousa] (https://github.com/SaraSousa97)          - up201504217        
+| Nome                                                  | Número Mecanográfico |
+|-------------------------------------------------------|----------------------|
+| [Cristiana Silva](https://github.com/CristianaMorais) | up201505454          |        
+| [Rui Santos](https://github.com/RSantos42)            | up201805317          |       
+| [Sara Sousa](https://github.com/SaraSousa97)          | up201504217          |      
