@@ -20,6 +20,7 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 #### :inbox_tray: Modo de utilização :inbox_tray:
 
+  > Nota: 
 
 ------------------------------------------------------------------------
 
