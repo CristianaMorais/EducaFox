@@ -10,11 +10,11 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 ### :fox_face: Extenção para browser :fox_face:
 
-#### Ficheiros
+#### :scroll: Ficheiros :scroll:
 
-* /src
+* 📁src 📁
 
-* Relatório_Grupo_7.pdf
+* :page_facing_up: Relatório_Grupo_7.pdf :page_facing_up:
 
   > Relatório com a descrição do desenvolvimento do trabalho e as opções tomadas.
 
