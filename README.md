@@ -8,7 +8,7 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 ------------------------------------------------------------------------
 
-### :fox_face: Extenção para browser :fox_face:
+### :fox_face: Extensão para browser :fox_face:
 
 #### 📍 Ficheiros 
 
