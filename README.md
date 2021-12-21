@@ -12,7 +12,7 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 #### 📍 Ficheiros 
 
-* 📁src
+* 📁`src`
 
 * :page_facing_up: Relatório_Grupo_7.pdf
 
