@@ -8,23 +8,27 @@ Neste trabalho, pretende-se uma análise das soluções já existentes para educ
 
 ------------------------------------------------------------------------
 
-### :fox_face: Extenção para browser :fox_face:
+### :fox_face: Extensão para browser :fox_face:
 
-#### Ficheiros
+#### 📍 Ficheiros 
 
+* 📁`src`
 
+* :page_facing_up: Relatório_Grupo_7.pdf
+
+  > Relatório com a descrição do desenvolvimento do trabalho e as opções tomadas.
 
 #### :inbox_tray: Modo de utilização :inbox_tray:
 
+* > Nota: 
 
 ------------------------------------------------------------------------
 
 ### &nbsp; :sparkles: Autores&nbsp; :sparkles:
 
 ##### :busts_in_silhouette: Grupo 7 :busts_in_silhouette:
-
-| Nome                                   | Nº Mecanográfico   |
-| ---------------------------------------| -------------------| 
-| :woman: Cristiana Morais da Silva      | up201505454        |
-| :man: Rui Manuel Rodrigues dos Santos  | up201805317        |
-| :woman: Sara Daniela Ferreira de Sousa | up201504217        |
+| Nome                                                  | Número Mecanográfico |
+|-------------------------------------------------------|----------------------|
+| [Cristiana Silva](https://github.com/CristianaMorais) | up201505454          |        
+| [Rui Santos](https://github.com/RSantos42)            | up201805317          |       
+| [Sara Sousa](https://github.com/SaraSousa97)          | up201504217          |      
