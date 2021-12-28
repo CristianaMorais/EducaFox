@@ -1,3 +1,18 @@
 body {
-    background-color: #F8A183;
+    background-color: #EDBB99;
+}
+
+h1{
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Kreon', serif;
+    font-size: 18px;
 }
