@@ -5,6 +5,7 @@ body {
 h1{
     font-family: 'Pushster', cursive;
     font-size: 50px;
+    color: #AD591C;
 }
 
 button{
@@ -13,6 +14,12 @@ button{
     border-radius: 8px;
     color: #F8AC9B;
     background-color: #5E3A32;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #D37C3C;
 }
 
 p{
