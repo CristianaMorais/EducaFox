@@ -1,3 +1,21 @@
 body {
-    background-color: #F8A183;
+    background-color: #EDBB99;
+}
+
+h1{
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+}
+
+button{
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+    border-radius: 8px;
+    color: #F8AC9B;
+    background-color: #5E3A32;
+}
+
+p{
+    font-family: 'Kreon', serif;
+    font-size: 18px;
 }
