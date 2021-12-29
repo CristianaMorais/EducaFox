@@ -1,9 +1,9 @@
 body {
-    background-color: var(--color);
+    background-color: var(--bodyColor);
 }
 
 h1{
     font-family: var(--titleFont), cursive;
     font-size: 50px;
-    color: #AD591C;
+    color: var(--titleColor)
 }

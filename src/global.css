@@ -1,7 +1,13 @@
 :root{
-  --color:#EDBB99;
+  --bodyColor:#EDBB99;
   --titleFont: 'Pushster';
   --subTitleFont: 'Dancing Script';
   --textFont: 'Kreon';
   --buttonTextFont: 'Pacifico';
+  --titleColor: #AD591C;
+  --subtitleColor: #D37C3C;
+  --textColor: #000000;
+  --buttonColor: #BCACA0;
+  --buttonBColor: #5E3A32;
+
 }

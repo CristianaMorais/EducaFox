@@ -1,7 +1,22 @@
 window.addEventListener("load", () => {
     var r = document.querySelector(':root');
-    if (localStorage.colorConfig) {
-        r.style.setProperty('--color',localStorage.colorConfig);
+    if (localStorage.bodyColor) {
+        r.style.setProperty('--bodyColor',localStorage.bodyColor);
+    }
+    if (localStorage.titleColor) {
+        r.style.setProperty('--titleColor',localStorage.titleColor);
+    }
+    if (localStorage.subtitleColor) {
+        r.style.setProperty('--subtitleColor',localStorage.subtitleColor);
+    }
+    if (localStorage.buttonColor) {
+        r.style.setProperty('--buttonColor',localStorage.buttonColor);
+    }
+    if (localStorage.buttonBColor) {
+        r.style.setProperty('--buttonBColor',localStorage.buttonBColor);
+    }
+    if(localStorage.textColor) {
+        r.style.setProperty('--textColor',localStorage.textColor);
     }
     if(localStorage.titleF){
         r.style.setProperty('--titleFont',localStorage.titleF);
@@ -16,9 +31,18 @@ window.addEventListener("load", () => {
         r.style.setProperty('--textFont',localStorage.textF);  
     }
     colorButton.addEventListener("click", function() {
-        localStorage.colorConfig = document.getElementById('colorChoice').value;
-        console.log(localStorage.colorConfig);
-        r.style.setProperty('--color',localStorage.colorConfig);                     
+        localStorage.bodyColor = document.getElementById('bodyColor').value;
+        localStorage.titleColor = document.getElementById('titleColor').value;
+        localStorage.textColor = document.getElementById('textColor').value;
+        localStorage.subtitleColor = document.getElementById('subtitleColor').value;
+        localStorage.buttonColor = document.getElementById('buttonColor').value;
+        localStorage.buttonBColor = document.getElementById('buttonBColor').value;
+        r.style.setProperty('--bodyColor',localStorage.bodyColor);
+        r.style.setProperty('--titleColor',localStorage.titleColor);  
+        r.style.setProperty('--subtitleColor',localStorage.subtitleColor);
+        r.style.setProperty('--textColor',localStorage.textColor);  
+        r.style.setProperty('--buttonColor',localStorage.buttonColor);  
+        r.style.setProperty('--buttonBColor',localStorage.buttonBColor);                       
     });
     fontButton.addEventListener("click", function() {
         localStorage.titleF = document.getElementById('titleFont').value;
@@ -31,7 +55,12 @@ window.addEventListener("load", () => {
         r.style.setProperty('--textFont',localStorage.textF);        
     });
     resetButton.addEventListener("click", function() {
-        localStorage.removeItem('colorConfig');
+        localStorage.removeItem('bodyColor');
+        localStorage.removeItem('titleColor');
+        localStorage.removeItem('subtitleColor');
+        localStorage.removeItem('textColor');
+        localStorage.removeItem('buttonColor');
+        localStorage.removeItem('buttonBColor');
         localStorage.removeItem('titleF');
         localStorage.removeItem('subtitleF');
         localStorage.removeItem('buttonTextF');
