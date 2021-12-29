@@ -7,3 +7,36 @@ h1{
     font-size: 50px;
     color: var(--titleColor)
 }
+
+h3{
+    font-family: var(--subTitleFont), cursive;
+    font-size: 25px;
+    color: var(--subtitleColor);
+}
+
+button{
+    font-family: var(--buttonTextFont), cursive;
+    font-size: 18px;
+    border-radius: 8px;
+    color: var(--buttonColor);
+    background-color: var(--buttonBColor);
+    height: 50px;
+}
+
+.question{
+    font-family: var(--subTitleFont), cursive;
+    font-size: 25px;
+    color: var(--subtitleColor);
+}
+
+.answers {
+    font-family: var(--textFont), serif;
+    color : var(--textColor);
+    font-size: 18px;
+}
+
+#results {
+    font-family: var(--textFont), serif;
+    color : var(--textColor);
+    font-size: 18px;
+}
