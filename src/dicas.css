@@ -10,10 +10,11 @@ h1{
 
 button{
     font-family: 'Pacifico', cursive;
-    font-size: 17px;
+    font-size: 18px;
     border-radius: 8px;
-    color: #F8AC9B;
+    color: #BCACA0;
     background-color: #5E3A32;
+    height: 50px;
 }
 
 h3{
@@ -25,4 +26,9 @@ h3{
 p{
     font-family: 'Kreon', serif;
     font-size: 18px;
+}
+
+#lista{
+    display: list-item;
+    margin-left: 100px;
 }

@@ -18,12 +18,12 @@ p{
 button {
   width: 150px;
   height: 30px;
-  margin: 10px;
   font-family: 'Pacifico', cursive;
   font-size: 17px;
   border-radius: 8px;
-  color: #F8AC9B;
+  color: #BCACA0;
   background-color: #5E3A32;
+  height: 40px;
 }
 #configuracoes {
   margin: 20px;
