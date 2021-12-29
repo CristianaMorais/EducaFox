@@ -1,22 +1,8 @@
 window.addEventListener("load", () => {
     var r = document.querySelector(':root');
-    if (localStorage.bodyColor) {
-        r.style.setProperty('--bodyColor',localStorage.bodyColor);
-    }
-    if (localStorage.titleColor) {
-        r.style.setProperty('--titleColor',localStorage.titleColor);
-    }
-    if (localStorage.subtitleColor) {
-        r.style.setProperty('--subtitleColor',localStorage.subtitleColor);
-    }
-    if (localStorage.buttonColor) {
-        r.style.setProperty('--buttonColor',localStorage.buttonColor);
-    }
-    if (localStorage.buttonBColor) {
-        r.style.setProperty('--buttonBColor',localStorage.buttonBColor);
-    }
-    if(localStorage.textColor) {
-        r.style.setProperty('--textColor',localStorage.textColor);
+    if(localStorage.colorConfig){
+    console.log(localStorage.colorConfig);
+    r.style.setProperty('--color',localStorage.colorConfig);
     }
     if(localStorage.titleF){
         r.style.setProperty('--titleFont',localStorage.titleF);
@@ -31,4 +17,3 @@ window.addEventListener("load", () => {
         r.style.setProperty('--textFont',localStorage.textF);  
     }               
 });
-
