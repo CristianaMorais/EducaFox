@@ -1,5 +1,5 @@
 body {
-  background-color: var(--color);
+  background-color: var(--bodyColor);
   width: 500px;
   height: 400px;
 }
@@ -7,11 +7,12 @@ body {
 h1{
   font-family: var(--titleFont), cursive;
   font-size: 40px;
-  color: #AD591C;
+  color: var(--titleColor);
 }
 
 p{
   font-family: var(--textFont), serif;
+  color: var(--textColor);
   font-size: 15px;
 }
 
@@ -21,8 +22,8 @@ button {
   font-family: var(--buttonTextFont), cursive;
   font-size: 17px;
   border-radius: 8px;
-  color: #BCACA0;
-  background-color: #5E3A32;
+  color: var(--buttonColor);
+  background-color: var(--buttonBColor);
   height: 40px;
 }
 #configuracoes {
