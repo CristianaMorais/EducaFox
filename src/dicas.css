@@ -15,7 +15,7 @@ button{
     color: var(--buttonColor);
     background-color: var(--buttonBColor);
     height: 50px;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 40px;
 }
 
@@ -32,11 +32,6 @@ p{
 }
 
 #lista{
-    display: list-item;
-    margin-left: 100px;
-}
-
-#lista2{
     display: list-item;
     margin-left: 100px;
 }

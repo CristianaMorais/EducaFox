@@ -19,3 +19,8 @@ p{
     color: var(--textColor);
     font-size: 18px;
 }
+
+#lista{
+    display: list-item;
+    margin-left: 100px;
+}

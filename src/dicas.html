@@ -96,9 +96,69 @@
 
     <br>
 
-    <h3>Cookies</h3>
+    <h3>Identificadores web</h3>
     <p>
+      Existem v&aacuterios tipos de indentificadores web, estes identificadores fazem com que seja mais simples rastrear um utilizador quando
+      este acede a um website. Isso &eacute feito atrav&eacutes de pedidos que o nosso browser faz a third parties que est&atildeo escondidas devido
+      a partes do c&oacutedigo presente do website, cada um desses pedidos vai conter informa&ccedil&atildeo que vai facilitar esse rastreio. <br>
+      Para que os rastreadores (trackers) consigam perceber sempre quem &eacute quem os identificadores utilizados precisam de ser &uacutenicos,
+      persistentes e dispon&iacuteveis. <br>
+      Como identificadore web temos:
 
+      <span id="lista">
+        <b>Cookies:</b> <br>
+        Os cookies s&atildeo ferramentas third party que est&atildeo presentes em todos os websites e s&atildeo uma parte de texto que fica 
+        guardada no browser associada a um determinado dom&iacutenio. <br>
+        Eles foram criados para ajudar os donos de websites a perceber se um determinado utilizador j&aacute visitou ou n&atildeo o seu 
+        website e se sim conseguirem perceber tamb&eacutem quais s&atildeo as coisas que procura e ver um padr&atildeo, para 
+        recomenda&ccedil&otildees por exemplo. <br>
+        &Eacute poss&iacutevel bloquear cookies ou at&eacute mesmo limpar todos os cookies de um browser.
+      </span>
+
+      <br>
+
+      <span id="lista">
+        <b>Endere&ccedilo IP:</b> <br>
+        Qualquer pedido que seja feito por um utilizador na web vai conter o  seu endere&ccedilo IP. <br>
+        Este identificador &eacute tempor&aacuterio e &uacutenico para cada dispositivo, no entanto n&atildeo &eacute persistente 
+        porque muda sempre que o utilizador muda de rede. <br>
+        Os tipos de endere&ccedilo IP usados atualmente s&atildeo o IPv4 e IPv6.
+      </span>
+
+      <br>
+
+      <span id="lista">
+        <b>TLS State:</b> <br>
+        TLS &eacute um protocolo de seguran&ccedila que &eacute utilizado por exemplo quando abrimos uma p&aacutegina que tenha no endere&ccedilo
+        https. <br>
+        A finalidade deste protocolo &eacute tornar transmiss&atildeo de dados segura, assegurando que os dados que est&atildeo a ser 
+        transmitidos n&atildeo sejam modificados ou intercetados. <br>
+        No entanto alguns rastreadores utilizam os identificadores criados quando o browser come&ccedila uma sess&atildeo de TLS para conseguirem
+        identificador o utilizador que a realizou.
+      </span>
+
+      <br>
+
+      Al&eacutem dos identificadores referidos acima por vezes os rastreadores acabam por usar tamb&eacutem identificadores criados por eles
+      pr&oacuteprios, desta forma o identificador criado fica mais pr&oacuteximo da sua necessidade. <br>
+      Alguns desses identificadores s&atildeo:
+
+      <span id="lista">
+        <b>Local Storage Super Cookie:</b> <br>
+        Local Storage funciona mais ou menos como os cookies, permitem aos rastreadores criar e guardar identificadores no browser do utilizador.
+        E assim como acontece com os cookies essa informa&ccedil&atildeo &eacute associada a um determinado dom&iacutenio. <br>
+        &Eacute normalmente usado por websites para guardar informa&ccedil&atildeo durante um longo per&iacuteodo de tempo, por exemplo
+        um jogo online de browser que precise de salvar o progresso do jogador.
+      </span>
+
+      <br>
+
+      <span id="lista">
+        <b>Browser Fingerprint:</b> <br>
+        Browser Fingerprint consiste em usar atributos para identificar um certo browser ou dispositivo individual. Os atributos podem ser
+        utilizados juntos ou separadamente para conseguir esta informa&ccedil&atildeo. <br>
+        Aqui os rastreadores aparoveitam os dados que o browser n&atildeo consegue evitar de partilhar com a rede devido &agrave forma como
+        comunica com a mesma. <br>
     </p>
 
     <br>
@@ -121,18 +181,18 @@
       Hoje em dia &eacute bastante comum os websites e plataformas de distribui&ccedil&atildeo de jogos, por exemplo, oferecerem a hip&oacutetese
       de o utilizador poder fazer a autentica&ccedil&atildeo em 2 etapas. <br>
       Este tipo de autentica&ccedil&atildeo funciona da seguinte forma:
-      <span id="lista2">
+      <span id="lista">
         O utilizador ao criar uma conta coloca l&aacute o email ou n&uacutemero de telem&oacutevel que quer usar como contacto.
       </span>
-      <span id="lista2">
+      <span id="lista">
         Assim sempre que for feito um login de um novo dispositivo vai ser enviada uma mensagem para o contacto para que o utilizador 
         verifique que foi ele que iniciou a sess&atildeo atrav&eacutes de um dispositivo diferente.
       </span>
-      <span id="lista2">
+      <span id="lista">
         Por outro lado se esse login n&atildeo tiver sido realizado pelo dono da conta este vai ser avisado por mensagem e pode negar o acesso
         &agrave pessoa que tentou aceder &agrave conta, por seguran&ccedila o dono deveria tamb&eacutem alterar a sua palavra passe.
       </span>
-      <span id="lista2">
+      <span id="lista">
         A mensagem enviada pode conter um link que leva ao website para finalizar a autentica&ccedil&atildeo ou cont&eacutem um c&oacutedigo
         que deve ser introduzido na aplica&ccedil&atildeo onde tentamos fazer o login.
       </span>
