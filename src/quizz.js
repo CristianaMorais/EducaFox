@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 var questions = [
     {
-        question : "Questão 1",
+        question : "Quest&atildeo 1",
         answers : {
             a: "Resposta 1",
             b: "Resposta 2",
@@ -31,7 +31,7 @@ var questions = [
         correctAnswer : 'b'
     },
     {
-        question : "Questão 1",
+        question : "Quest&atildeo 1",
         answers : {
             a: "Resposta 1",
             b: "Resposta 2",
