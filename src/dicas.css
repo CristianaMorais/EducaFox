@@ -15,6 +15,8 @@ button{
     color: #BCACA0;
     background-color: #5E3A32;
     height: 50px;
+    margin-left: 40%;
+    margin-top: 40px;
 }
 
 h3{
@@ -29,6 +31,11 @@ p{
 }
 
 #lista{
+    display: list-item;
+    margin-left: 100px;
+}
+
+#lista2{
     display: list-item;
     margin-left: 100px;
 }
