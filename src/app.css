@@ -1,24 +1,24 @@
 body {
-  background-color: #EDBB99;
+  background-color: var(--color);
   width: 500px;
   height: 400px;
 }
 
 h1{
-  font-family: 'Pushster', cursive;
+  font-family: var(--titleFont), cursive;
   font-size: 40px;
   color: #AD591C;
 }
 
 p{
-  font-family: 'Kreon', serif;
+  font-family: var(--textFont), serif;
   font-size: 15px;
 }
 
 button {
   width: 150px;
   height: 30px;
-  font-family: 'Pacifico', cursive;
+  font-family: var(--buttonTextFont), cursive;
   font-size: 17px;
   border-radius: 8px;
   color: #BCACA0;

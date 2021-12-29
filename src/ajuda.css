@@ -1,20 +1,20 @@
 body {
-    background-color: #EDBB99;
+    background-color: var(--color);
 }
 
 h1{
-    font-family: 'Pushster', cursive;
+    font-family: var(--titleFont), cursive;
     font-size: 50px;
     color: #AD591C;
 }
 
 h3{
-    font-family: 'Dancing Script', cursive;
+    font-family: var(--subTitleFont) , cursive;
     font-size: 25px;
     color: #D37C3C;
 }
 
 p{
-    font-family: 'Kreon', serif;
+    font-family: var(--textFont), serif;
     font-size: 18px;
 }
