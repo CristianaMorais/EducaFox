@@ -26,6 +26,7 @@ button {
   background-color: var(--buttonBColor);
   height: 40px;
 }
+
 #configuracoes, #ajuda, #dicas, #pontos{
   margin: 20px;
 }
