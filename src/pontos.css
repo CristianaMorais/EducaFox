@@ -28,4 +28,20 @@ button {
     color: var(--buttonColor);
     background-color: var(--buttonBColor);
     height: 40px;
-  }
+}
+
+#fox {
+    text-align: center;
+
+}
+
+#pointcount {
+    width: 170px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    margin-left: 44%;
+    font-family: var(--textFont), serif;
+    color: var(--textColor);
+    font-size: 18px;
+}

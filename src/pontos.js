@@ -58,12 +58,41 @@ window.addEventListener("load", () => {
     redx.width = 20;
     document.getElementById("obj1").appendChild(redx);
     }
+    if(typeof localStorage.points === "undefined") localStorage.points = 0;
+
+    if(localStorage.points < 4) {
+        var counter = document.getElementById("pointcount");
+        var sadFox = document.createElement("img");
+        sadFox.src = "/icons/sad_fox.png";
+        counter.innerHTML = 'Tens ' + localStorage.points + ' pontos ' + ' em 8';
+        document.getElementById("fox").appendChild(sadFox);
+
+    }
+
+    if(localStorage.points > 3 && localStorage.points < 8) {
+        var counter = document.getElementById("pointcount");
+        var almostFox = document.createElement("img");
+        almostFox.src = "/icons/almost_fox.png";
+        counter.innerHTML = 'Tens ' + localStorage.points + ' pontos ' + ' em 8';
+        document.getElementById("fox").appendChild(almostFox);
+
+    }
+
+    if(localStorage.points == 8) {
+        var counter = document.getElementById("pointcount");
+        var happyFox = document.createElement("img");
+        happyFox.src = "/icons/happy_fox.png";
+        counter.innerHTML = 'Tens ' + localStorage.points + ' pontos ' + ' em 8';
+        document.getElementById("fox").appendChild(happyFox);
+    }
+    
 
     resetPoints.addEventListener("click", function () {
         localStorage.removeItem("questobj");
         localStorage.removeItem("duckobj");
         localStorage.removeItem("points");
         localStorage.removeItem("badgerobj");
+        window.location.reload();
     });
     
 });
