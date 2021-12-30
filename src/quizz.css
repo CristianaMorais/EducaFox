@@ -36,3 +36,9 @@ button{
     color : var(--textColor);
     font-size: 18px;
 }
+
+#dicas{
+    position: absolute;
+    margin-left: 950px;
+    
+}
