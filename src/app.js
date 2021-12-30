@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
     }
 
     on_off.addEventListener("click", function() {
-        var btn = document.getElementById("ligado_desligado");
+        var btn = document.getElementById("on_off");
 
         if (btn.value == "Ligado") {
             btn.value = "Desligado";
