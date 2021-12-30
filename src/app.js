@@ -33,14 +33,20 @@ window.addEventListener("load", () => {
 
     on_off.addEventListener("click", function() {
         var btn = document.getElementById("on_off");
+        var botoes = document.getElementById("botoes");
+        var msg = document.getElementById("mensagem");
 
         if (btn.value == "Ligado") {
             btn.value = "Desligado";
-            btn.innerHTML = "Desligado";
+            btn.innerHTML = "Ligar";
+            botoes.style.display = "none";
+            msg.style.display = "block";
         }
         else {
             btn.value = "Ligado";
-            btn.innerHTML = "Ligado";
+            btn.innerHTML = "Desligar";
+            botoes.style.display = "block";
+            msg.style.display = "none";
         }        
     });                
 });
