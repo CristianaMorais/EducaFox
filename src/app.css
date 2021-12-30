@@ -26,22 +26,9 @@ button {
   background-color: var(--buttonBColor);
   height: 40px;
 }
-#configuracoes {
+#configuracoes, #ajuda, #dicas, #pontos{
   margin: 20px;
 }
-
-#ajuda {
-  margin: 20px;
-}
-
-#dicas{
-  margin: 20px;
-}
-
-#pontos{
-  margin: 20px;
-}
-
 #on_off{
   position: absolute;
   margin: 10px;

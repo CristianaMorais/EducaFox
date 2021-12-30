@@ -1,9 +1,20 @@
 body {
     background-color: var(--bodyColor);
+    height: 1080px;
+    width: 1920px;
 }
 
 h1{
     font-family: var(--titleFont), cursive;
     font-size: 50px;
     color: var(--titleColor)
+}
+
+button{
+    font-family: var(--buttonTextFont), cursive;
+    font-size: 18px;
+    border-radius: 8px;
+    color: var(--buttonColor);
+    background-color: var(--buttonBColor);
+    height: 50px;
 }
