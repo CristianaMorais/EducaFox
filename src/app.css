@@ -36,3 +36,15 @@ button {
   bottom: 10px;
   right: 10px;
 }
+
+#head{
+  display: inline-block;
+}
+
+img{
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 400px;
+  height: 60px;
+  width: 60px;
+}
