@@ -8,12 +8,22 @@ h1{
   font-family: var(--titleFont), cursive;
   font-size: 40px;
   color: var(--titleColor);
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+div{
+  margin-top: 70px;
+  position: absolute;
+  height: 300px;
+  width: 500px;
 }
 
 p{
   font-family: var(--textFont), serif;
   color: var(--textColor);
-  font-size: 15px;
+  font-size: 18px;
 }
 
 button {
@@ -27,25 +37,39 @@ button {
   height: 40px;
 }
 
-#configuracoes, #ajuda, #dicas, #pontos{
-  margin: 20px;
+#dicas{
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#configuracoes{
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 90px;
+}
+
+#pontos{
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+#ajuda{
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 90px;
 }
 
 #on_off{
   position: absolute;
-  margin: 10px;
-  bottom: 10px;
-  right: 10px;
-}
-
-#head{
-  display: inline-block;
+  margin-left: 155px;
+  margin-top: 160px;
 }
 
 img{
   position: absolute;
-  margin-top: -5px;
-  margin-left: 400px;
+  margin-top: 3px;
   height: 60px;
   width: 60px;
 }
