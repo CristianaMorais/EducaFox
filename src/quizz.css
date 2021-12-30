@@ -18,3 +18,21 @@ button{
     background-color: var(--buttonBColor);
     height: 50px;
 }
+
+.question{
+    font-family: var(--subTitleFont), cursive;
+    font-size: 25px;
+    color: var(--subtitleColor);
+}
+
+.answers {
+    font-family: var(--textFont), serif;
+    color : var(--textColor);
+    font-size: 18px;
+}
+
+#results {
+    font-family: var(--textFont), serif;
+    color : var(--textColor);
+    font-size: 18px;
+}

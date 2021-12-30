@@ -29,6 +29,7 @@ button {
 #configuracoes, #ajuda, #dicas, #pontos{
   margin: 20px;
 }
+
 #on_off{
   position: absolute;
   margin: 10px;
