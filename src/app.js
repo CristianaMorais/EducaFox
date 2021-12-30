@@ -29,6 +29,18 @@ window.addEventListener("load", () => {
     }
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
-    } 
-                
+    }
+
+    on_off.addEventListener("click", function() {
+        var btn = document.getElementById("on_off");
+
+        if (btn.value == "On") {
+            btn.value = "Off";
+            btn.innerHTML = "Off";
+        }
+        else {
+            btn.value = "On";
+            btn.innerHTML = "On";
+        }        
+    });                
 });
