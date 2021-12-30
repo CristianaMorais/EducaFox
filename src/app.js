@@ -32,15 +32,15 @@ window.addEventListener("load", () => {
     }
 
     on_off.addEventListener("click", function() {
-        var btn = document.getElementById("on_off");
+        var btn = document.getElementById("ligado_desligado");
 
-        if (btn.value == "On") {
-            btn.value = "Off";
-            btn.innerHTML = "Off";
+        if (btn.value == "Ligado") {
+            btn.value = "Desligado";
+            btn.innerHTML = "Desligado";
         }
         else {
-            btn.value = "On";
-            btn.innerHTML = "On";
+            btn.value = "Ligado";
+            btn.innerHTML = "Ligado";
         }        
     });                
 });
