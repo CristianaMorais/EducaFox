@@ -48,8 +48,8 @@ var questions = [
         question : "Cada solicita&ccedil&atildeo feita pela Internet cont&eacutem o nosso endere&ccedilo IP. Este &eacute: ",
         answers : {
             a: "&Uacutenico e nunca muda.",
-            b: "&Uacutenico e muda toda vez que uso a minha rede de internet.",
-            c: "&Uacutenico e muda toda vez que mudo para uma nova rede."
+            b: "&Uacutenico e muda todas as vezes que uso a minha rede de internet.",
+            c: "&Uacutenico e muda toda as vezes que mudo para uma nova rede."
         },
         correctAnswer : 'c'
 
@@ -71,7 +71,7 @@ var questions = [
             b: "Cookies, IP address, TLS state,local storage super cookie, browser fingerprint.",
             c: "Cookies, TLS state, browser fingerprint."
         },
-        correctAnswer : 'c'
+        correctAnswer : 'b'
 
     },
 	{
@@ -209,7 +209,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			answers.push(
 				'<label>' + '<p>'
 					+ '<input type="radio" name="question'+i+'" value="'+letter+'">'
-					+ letter + ': '
+					+ letter + ') '
 					+ questions[i].answers[letter] + '</p>' + '</label>'
 				
 			);
@@ -247,7 +247,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			numCorrect++;
 			
 			// color the answers green
-			answerContainers[i].style.color = 'lightgreen';
+			answerContainers[i].style.color = 'green';
 		}
 		// if answer is wrong or blank
 		else{
@@ -258,7 +258,17 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 	// show number of correct answers out of total
 	resultsContainer.innerHTML = 'Acertaste ' + numCorrect + ' de ' + questions.length + ' quest&otildees ! ';
-}
+    if (numCorrect == questions.length) {
+        if(localStorage.questobj != 1) {
+            localStorage.questobj = 1;
+            if(typeof localStorage.points === "undefined") {
+                localStorage.points = 0;
+            }
+            localStorage.points = parseInt(localStorage.points) + 5;
+            console.log(localStorage.points);
+        }
+    } 
+    }
 
 	// show the questions
 	showQuestions(questions, quizContainer);

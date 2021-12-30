@@ -29,5 +29,28 @@ window.addEventListener("load", () => {
     }
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
-    }               
+    }
+    duckDuck.addEventListener("click",function() {
+        /*localStorage.removeItem("duckobj");
+        localStorage.removeItem("points");*/
+        if (localStorage.duckobj != 1){        
+             localStorage.duckobj = 1;
+             if(typeof localStorage.points === "undefined") {
+                 localStorage.points = 0;
+             } 
+             localStorage.points = parseInt(localStorage.points) + 1;
+             console.log(localStorage.points);
+        }
+    });
+    badger.addEventListener("click",function () {
+        if(localStorage.badgerobj != 1) {
+            localStorage.badgerobj = 1;
+            if(typeof localStorage.points === "undefined") {
+                localStorage.points = 0;
+            }
+            localStorage.points = parseInt(localStorage.points) + 1;
+            console.log(localStorage.points);
+        }
+    });
+
 });
