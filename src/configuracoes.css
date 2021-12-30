@@ -1,5 +1,7 @@
 body {
     background-color: var(--bodyColor);
+    height: 1080px;
+    width: 1920px;
 }
 
 h1{
@@ -31,4 +33,24 @@ p{
 
 #textFont,#buttonTextFont,#titleFont,#subtitleFont{
     font-family: var(--textFont);
+}
+
+#links{
+    display: inline-block;
+}
+
+#dicas{
+    position: absolute;
+    margin-left: 850px;
+    height: 40px;
+    width: 100px;
+    margin-top: 40px;
+}
+
+#ajuda{
+    position: absolute;
+    margin-left: 1000px;
+    height: 40px;
+    width: 100px;
+    margin-top: 40px;
 }

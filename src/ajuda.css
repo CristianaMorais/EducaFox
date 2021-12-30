@@ -1,5 +1,7 @@
 body {
     background-color: var(--bodyColor);
+    height: 1080px;
+    width: 1920px;
 }
 
 h1{
@@ -23,4 +25,33 @@ p{
 #lista{
     display: list-item;
     margin-left: 100px;
+}
+
+button{
+    font-family: var(--buttonTextFont), cursive;
+    font-size: 17px;
+    border-radius: 8px;
+    color: var(--buttonColor);
+    background-color: var(--buttonBColor);
+    height: 40px;
+}
+
+#links{
+    display: inline-block;
+}
+
+#dicas{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
+}
+
+#configuracoes{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 40px;
+    height: 40px;
+    width: 120px;
 }

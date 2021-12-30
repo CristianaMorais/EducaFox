@@ -1,5 +1,7 @@
 body {
     background-color: var(--bodyColor);
+    height: 1080px;
+    width: 1920px;
 }
 
 h1{
@@ -34,4 +36,31 @@ p{
 #lista{
     display: list-item;
     margin-left: 100px;
+}
+
+#links{
+    display: inline-block;
+}
+
+#configuracoes{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 40px;
+    height: 40px;
+}
+
+#quiz{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 40px;
+    height: 40px;
+    width: 270px;
+}
+
+#ajuda{
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
 }

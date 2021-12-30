@@ -1,17 +1,13 @@
 body {
     background-color: var(--bodyColor);
+    height: 1080px;
+    width: 1920px;
 }
 
 h1{
     font-family: var(--titleFont), cursive;
     font-size: 50px;
     color: var(--titleColor)
-}
-
-h3{
-    font-family: var(--subTitleFont), cursive;
-    font-size: 25px;
-    color: var(--subtitleColor);
 }
 
 button{
@@ -39,4 +35,10 @@ button{
     font-family: var(--textFont), serif;
     color : var(--textColor);
     font-size: 18px;
+}
+
+#dicas{
+    position: absolute;
+    margin-left: 950px;
+    
 }
