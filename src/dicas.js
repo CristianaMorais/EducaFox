@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
+    //Initial configuration
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
@@ -30,6 +31,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
     }
+    //Objective 2 check
     var https = document.getElementById('HTTPS');
     https.addEventListener("click", () => {
         if (localStorage.protocolobj != 1){        
@@ -41,7 +43,8 @@ window.addEventListener("DOMContentLoaded", () => {
             console.log(localStorage.points);
        }
     });
-
+    
+    //Objective 1 check
     var duckDuck = document.getElementById('duckDuck');
     duckDuck.addEventListener("click",function() {
         /*localStorage.removeItem("duckobj");

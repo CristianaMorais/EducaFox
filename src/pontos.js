@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
+    //Initial configuration
     var fox = document.getElementById("foxreward");
     fox.style.visibility = 'hidden';
     console.log(localStorage.protocolobj);
@@ -33,6 +34,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
     }
+    //Check objectives and add icons
     if (localStorage.questobj == 1){
     var checkmark = document.createElement("img");
     checkmark.src = "/icons/checkmark.png";
@@ -76,7 +78,7 @@ window.addEventListener("DOMContentLoaded", () => {
     redx.width = 20;
     document.getElementById("obj2").appendChild(redx);
     }
-
+    //Check points and add fox icon
     if(typeof localStorage.points === "undefined") localStorage.points = 0;
     if(localStorage.points < 3) {
         var counter = document.getElementById("pointcount");

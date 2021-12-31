@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    //Initial configuration
 	var r = document.querySelector(':root');
 	if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
@@ -192,7 +193,7 @@ function startq() {
     var submitButton = document.getElementById('submit');
     generateQuiz(questions, quizContainer, resultsContainer, submitButton);
 }
-
+//Quiz logic
 function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 	function showQuestions(questions, quizContainer){
@@ -201,7 +202,6 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 	for(var i=0; i<questions.length; i++){
 		
-		// first reset the list of answers
 		answers = [];
 
 		for(letter in questions[i].answers){
@@ -216,42 +216,40 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 			console.log(answers);
 		}
 
-		// add this question and its answers to the output
+		
 		output.push(
 			'<div class="question">' + questions[i].question + '</div>' + '<div class="answers">'
 			+ answers.join('') + '</div>'
 		);
 	}
 
-	// finally combine our output list into one string of html and put it on the page
+	
 	quizContainer.innerHTML = output.join('');
     }
 
 	function showResults(questions, quizContainer, resultsContainer){
-		// gather answer containers from our quiz
 	var answerContainers = quizContainer.querySelectorAll('.answers');
 	
-	// keep track of user's answers
+	
 	var userAnswer = '';
 	var numCorrect = 0;
 	
-	// for each question...
 	for(var i=0; i<questions.length; i++){
 
-		// find selected answer
+		
 		userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
 		
-		// if answer is correct
+		
 		if(userAnswer===questions[i].correctAnswer){
-			// add to the number of correct answers
+			
 			numCorrect++;
 			
-			// color the answers green
+			
 			answerContainers[i].style.color = 'green';
 		}
-		// if answer is wrong or blank
+		
 		else{
-			// color the answers red
+			
 			answerContainers[i].style.color = 'red';
 		}
 	}

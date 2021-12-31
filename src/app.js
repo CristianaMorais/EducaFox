@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
+    //Initial configuration
     var r = document.querySelector(':root');
     var b = document.querySelector('#botoes');
     var m = document.querySelector('#mensagem');
@@ -33,6 +34,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
     }
+    //On_Off button
     var on_off = document.getElementById('on_off');
     on_off.addEventListener("click", function() {
         var btn = document.getElementById("on_off");

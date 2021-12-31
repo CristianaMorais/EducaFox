@@ -1,6 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-    console.log(localStorage.protocolobj);
-    console.log(localStorage.points);
+    //Initial configuration
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
@@ -32,6 +31,8 @@ window.addEventListener("DOMContentLoaded", () => {
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
     }
+
+    //Buttons for configurations
     var colorButton = document.getElementById('colorButton');
     colorButton.addEventListener("click", function() {
         localStorage.bodyColor = document.getElementById('bodyColor').value;

@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
+    //Initial configuration
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
