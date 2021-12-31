@@ -16,6 +16,9 @@ window.addEventListener("load", () => {
 
 window.addEventListener("DOMContentLoaded", () => {
     var r = document.querySelector(':root');
+    var b = document.querySelector('#botoes');
+    var m = document.querySelector('#mensagem');
+
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
     }
@@ -49,13 +52,38 @@ window.addEventListener("DOMContentLoaded", () => {
     var on_off = document.getElementById('on_off');
     on_off.addEventListener("click", function() {
         var btn = document.getElementById("on_off");
+        var botoes = document.getElementById("botoes");
+        var msg = document.getElementById("mensagem");
+        
+
         if (btn.value == "Ligado") {
             btn.value = "Desligado";
-            btn.innerHTML = "Desligado";
+            btn.innerHTML = "Ligar";
+            botoes.style.display = "none";
+            msg.style.display = "block";
+            localStorage.botao = document.getElementById("on_off").value;
+            
         }
-        else {
+        else{
             btn.value = "Ligado";
-            btn.innerHTML = "Ligado";
+            btn.innerHTML = "Desligar";
+            botoes.style.display = "block";
+            msg.style.display = "none";
+            localStorage.botao = document.getElementById("on_off").value;            
         }        
-    });             
+    });
+    
+    if(localStorage.botao == "Ligado"){
+        b.style.setProperty("display", "block");
+        m.style.setProperty("display", "none");
+        document.getElementById("on_off").value = "Ligado";
+        document.getElementById("on_off").innerHTML = "Desligar";
+    }
+
+    if(localStorage.botao == "Desligado"){
+        b.style.setProperty("display", "none");
+        m.style.setProperty("display", "block");
+        document.getElementById("on_off").value = "Desligado";
+        document.getElementById("on_off").innerHTML = "Ligar";
+    } 
 });

@@ -73,3 +73,17 @@ img{
   height: 60px;
   width: 60px;
 }
+
+#botoes{
+  position: absolute;
+  display: block;
+  margin-top: 0px;
+}
+
+#mensagem{
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 21px;
+}
