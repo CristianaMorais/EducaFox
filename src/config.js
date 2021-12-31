@@ -1,5 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
-    console.log(protocolobj);
+    console.log(localStorage.protocolobj);
+    console.log(localStorage.points);
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);

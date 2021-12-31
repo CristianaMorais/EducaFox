@@ -30,9 +30,19 @@ window.addEventListener("DOMContentLoaded", () => {
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
     }
-    console.log(document);
+    var https = document.getElementById('HTTPS');
+    https.addEventListener("click", () => {
+        if (localStorage.protocolobj != 1){        
+            localStorage.protocolobj = 1;
+            if(typeof localStorage.points === "undefined") {
+                localStorage.points = 0;
+            } 
+            localStorage.points = parseInt(localStorage.points) + 1;
+            console.log(localStorage.points);
+       }
+    });
+
     var duckDuck = document.getElementById('duckDuck');
-    console.log(duckDuck);
     duckDuck.addEventListener("click",function() {
         /*localStorage.removeItem("duckobj");
         localStorage.removeItem("points");*/

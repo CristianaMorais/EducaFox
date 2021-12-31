@@ -1,19 +1,3 @@
-window.addEventListener("load", () => {
-    if(location.protocol == 'https:') {
-        localStorage.protocolobj = 0;
-        if(localStorage.protocolobj != 1){
-            console.log("ola");
-            localStorage.protocolobj = 1;
-            console.log(localStorage.protocolobj);
-            if(typeof localStorage.points === "undefined") {
-                localStorage.points = 0;
-            }
-            localStorage.points = parseInt(localStorage.points) + 1;
-            console.log(localStorage.points);
-        }
-    }
-});
-
 window.addEventListener("DOMContentLoaded", () => {
     var r = document.querySelector(':root');
     var b = document.querySelector('#botoes');

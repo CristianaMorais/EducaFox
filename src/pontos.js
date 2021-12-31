@@ -1,4 +1,6 @@
 window.addEventListener("DOMContentLoaded", () => {
+    var fox = document.getElementById("foxreward");
+    fox.style.visibility = 'hidden';
     console.log(localStorage.protocolobj);
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
@@ -50,21 +52,6 @@ window.addEventListener("DOMContentLoaded", () => {
     checkmark.src = "/icons/checkmark.png";
     checkmark.height = 20;
     checkmark.width = 20;
-    document.getElementById("obj2").appendChild(checkmark);
-    }
-    else {
-    var redx = document.createElement("img");
-    redx.src = "/icons/cross-red-cross.png";
-    redx.height = 20;
-    redx.width = 20;
-    document.getElementById("obj2").appendChild(redx);
-    }
-
-    if(localStorage.protocolobj == 1) {
-    var checkmark = document.createElement("img");
-    checkmark.src = "/icons/checkmark.png";
-    checkmark.height = 20;
-    checkmark.width = 20;
     document.getElementById("obj1").appendChild(checkmark);
     }
     else {
@@ -75,9 +62,23 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("obj1").appendChild(redx);
     }
 
-    if(typeof localStorage.points === "undefined") localStorage.points = 0;
+    if(localStorage.protocolobj == 1) {
+    var checkmark = document.createElement("img");
+    checkmark.src = "/icons/checkmark.png";
+    checkmark.height = 20;
+    checkmark.width = 20;
+    document.getElementById("obj2").appendChild(checkmark);
+    }
+    else {
+    var redx = document.createElement("img");
+    redx.src = "/icons/cross-red-cross.png";
+    redx.height = 20;
+    redx.width = 20;
+    document.getElementById("obj2").appendChild(redx);
+    }
 
-    if(localStorage.points < 4) {
+    if(typeof localStorage.points === "undefined") localStorage.points = 0;
+    if(localStorage.points < 3) {
         var counter = document.getElementById("pointcount");
         var sadFox = document.createElement("img");
         sadFox.src = "/icons/sad_fox.png";
@@ -86,7 +87,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    if(localStorage.points > 3 && localStorage.points < 8) {
+    if(localStorage.points > 2 && localStorage.points < 8) {
         var counter = document.getElementById("pointcount");
         var almostFox = document.createElement("img");
         almostFox.src = "/icons/almost_fox.png";
@@ -94,13 +95,14 @@ window.addEventListener("DOMContentLoaded", () => {
         document.getElementById("fox").appendChild(almostFox);
 
     }
-
+    
     if(localStorage.points == 8) {
         var counter = document.getElementById("pointcount");
         var happyFox = document.createElement("img");
         happyFox.src = "/icons/happy_fox.png";
         counter.innerHTML = 'Tens ' + localStorage.points + ' pontos ' + ' em 8';
         document.getElementById("fox").appendChild(happyFox);
+        fox.style.visibility = 'visible';
     }
     var resetPoints = document.getElementById('resetPoints');
     resetPoints.addEventListener("click", function () {
