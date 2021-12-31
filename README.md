@@ -29,7 +29,10 @@ In this work, it is intended an analysis of the existing solutions for security/
 #### :inbox_tray: Instalação/Installation :inbox_tray:
 
 * Procurar a aba de extensões no browser onde se pretende ativar a extensão.
-* Ativar o modo de programador.
+* Ativar o modo de programador no canto superior direito como mostra a foto:
+
+  ![image](https://user-images.githubusercontent.com/20134178/147799090-98e3c898-7cc2-4142-8d7f-a58287b65f34.png)
+
 * No chrome:
 
   ![image](https://user-images.githubusercontent.com/20134178/147783822-89c612ec-267e-40d5-8975-ca5d9fb4576e.png)
