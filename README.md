@@ -28,7 +28,7 @@ In this work, it is intended an analysis of the existing solutions for security/
 
 #### :inbox_tray: Instalação/Installation :inbox_tray:
 
-* Procurar a aba de extensões no browser onde se pretende ativar a extensão:
+* Procurar a aba de extensões em mais ferramentas ou clicar no icon da peça de puzzle:
   
   ![image](https://user-images.githubusercontent.com/20134178/147799441-f6f95c11-1035-49c0-92d3-0ee22940bdb5.png)
   
