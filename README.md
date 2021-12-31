@@ -27,30 +27,34 @@ In this work, it is intended an analysis of the existing solutions for security/
   > Relatório com a descrição do desenvolvimento do trabalho e as opções tomadas./Report with the description of the development of the work and the options taken.
 
 #### :inbox_tray: Instalação/Installation :inbox_tray:
-
-* Procurar a aba de extensões em mais ferramentas ou clicar no icon da peça de puzzle:
   
-  ![image](https://user-images.githubusercontent.com/20134178/147799441-f6f95c11-1035-49c0-92d3-0ee22940bdb5.png)
+* Abrir o browser Google Chrome/Open Google Chrome browser
+
+* Procurar a aba de extensões em "Mais ferramentas" ou clicar no icon da peça de puzzle depois escolher "Gerir Extensões"/ Search for the tab extensions in "More Tools" or click on the puzzle piece then choose "Manage Extensions":
   
-* Ativar o modo de programador no canto superior direito como mostra a foto:
+  ![image](https://user-images.githubusercontent.com/20134178/147799441-f6f95c11-1035-49c0-92d3-0ee22940bdb5.png)   ![foto2](https://user-images.githubusercontent.com/27723920/147799986-f8bfb234-32a7-498a-a709-a69f9e10b0cf.jpg)
+    
+* Ativar o modo de programador no canto superior direito como mostra a foto/ Activate the programmer mode in the top corner as shown in this image:
 
-  ![image](https://user-images.githubusercontent.com/20134178/147799090-98e3c898-7cc2-4142-8d7f-a58287b65f34.png)
+  ![image](https://user-images.githubusercontent.com/20134178/147799090-98e3c898-7cc2-4142-8d7f-a58287b65f34.png)  ![foto4](https://user-images.githubusercontent.com/27723920/147800070-d4340dd1-90e5-44e1-8d12-29ef88c414df.png)
 
-* No chrome:
 
-  ![image](https://user-images.githubusercontent.com/20134178/147783822-89c612ec-267e-40d5-8975-ca5d9fb4576e.png)
+* No topo da página/On the top of the page:
 
-  * Clicar em "Carregar expandadida".
-* Após isto selecionar a pasta 'src'.
-* Em seguida é necessário clicar no icon como mostra a imagem:
+  ![image](https://user-images.githubusercontent.com/20134178/147783822-89c612ec-267e-40d5-8975-ca5d9fb4576e.png)  ![foto5](https://user-images.githubusercontent.com/27723920/147800112-9d7a52fa-9486-47e8-94ce-b66613af3304.png)
 
-  ![image](https://user-images.githubusercontent.com/20134178/147784081-9c613aec-305d-460d-ae00-5d260dec1317.png)
+  * Clicar em "Carregar expandadida"/Click on "Load unpacked".
+* Após isto selecionar a pasta 'src'/After that select the folder 'src'.
+* Em seguida é necessário clicar no icon como mostra a imagem/ Next it will be necessary to click on the icon as shown in the image:
 
-* Depois é só dar pin à extensão, bastando clicar no icon que na imagem está a azul:
+  ![image](https://user-images.githubusercontent.com/20134178/147784081-9c613aec-305d-460d-ae00-5d260dec1317.png)  ![foto2](https://user-images.githubusercontent.com/27723920/147800340-f2116e0a-32a8-4a7f-9127-4810a734a77a.png)
+
+
+* Depois é só dar pin à extensão, bastando clicar no icon que na imagem está a azul/After that you just need to pin the extension, for that just click on the icon that is blue in the image:
   
   ![image](https://user-images.githubusercontent.com/20134178/147784149-02e45b35-1660-4c22-9c08-698e0d1172d8.png)
 
-* E a extensão está pronta a usar.
+* E a extensão está pronta a usar/And the extension is ready to be used.
 ------------------------------------------------------------------------
 
 ### &nbsp; :sparkles: Autores&nbsp;/Authors&nbsp; :sparkles:
