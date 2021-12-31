@@ -28,7 +28,10 @@ In this work, it is intended an analysis of the existing solutions for security/
 
 #### :inbox_tray: Instalação/Installation :inbox_tray:
 
-* Procurar a aba de extensões no browser onde se pretende ativar a extensão.
+* Procurar a aba de extensões no browser onde se pretende ativar a extensão:
+  
+  ![image](https://user-images.githubusercontent.com/20134178/147799441-f6f95c11-1035-49c0-92d3-0ee22940bdb5.png)
+  
 * Ativar o modo de programador no canto superior direito como mostra a foto:
 
   ![image](https://user-images.githubusercontent.com/20134178/147799090-98e3c898-7cc2-4142-8d7f-a58287b65f34.png)
