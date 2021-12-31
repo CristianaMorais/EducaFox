@@ -40,6 +40,7 @@ button {
     height: 35px;
     background-color: white;
     text-align: center;
+    margin-top: -10%;
     margin-left: 44%;
     font-family: var(--textFont), serif;
     color: var(--textColor);

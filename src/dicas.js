@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
@@ -30,6 +30,9 @@ window.addEventListener("load", () => {
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
     }
+    console.log(document);
+    var duckDuck = document.getElementById('duckDuck');
+    console.log(duckDuck);
     duckDuck.addEventListener("click",function() {
         /*localStorage.removeItem("duckobj");
         localStorage.removeItem("points");*/
@@ -42,6 +45,7 @@ window.addEventListener("load", () => {
              console.log(localStorage.points);
         }
     });
+    var badger = document.getElementById('badger');
     badger.addEventListener("click",function () {
         if(localStorage.badgerobj != 1) {
             localStorage.badgerobj = 1;
@@ -52,5 +56,4 @@ window.addEventListener("load", () => {
             console.log(localStorage.points);
         }
     });
-
 });

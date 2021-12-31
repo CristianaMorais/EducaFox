@@ -1,4 +1,5 @@
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
+    console.log(localStorage.protocolobj);
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
@@ -49,6 +50,21 @@ window.addEventListener("load", () => {
     checkmark.src = "/icons/checkmark.png";
     checkmark.height = 20;
     checkmark.width = 20;
+    document.getElementById("obj2").appendChild(checkmark);
+    }
+    else {
+    var redx = document.createElement("img");
+    redx.src = "/icons/cross-red-cross.png";
+    redx.height = 20;
+    redx.width = 20;
+    document.getElementById("obj2").appendChild(redx);
+    }
+
+    if(localStorage.protocolobj == 1) {
+    var checkmark = document.createElement("img");
+    checkmark.src = "/icons/checkmark.png";
+    checkmark.height = 20;
+    checkmark.width = 20;
     document.getElementById("obj1").appendChild(checkmark);
     }
     else {
@@ -58,6 +74,7 @@ window.addEventListener("load", () => {
     redx.width = 20;
     document.getElementById("obj1").appendChild(redx);
     }
+
     if(typeof localStorage.points === "undefined") localStorage.points = 0;
 
     if(localStorage.points < 4) {
@@ -85,13 +102,13 @@ window.addEventListener("load", () => {
         counter.innerHTML = 'Tens ' + localStorage.points + ' pontos ' + ' em 8';
         document.getElementById("fox").appendChild(happyFox);
     }
-    
-
+    var resetPoints = document.getElementById('resetPoints');
     resetPoints.addEventListener("click", function () {
         localStorage.removeItem("questobj");
         localStorage.removeItem("duckobj");
         localStorage.removeItem("points");
         localStorage.removeItem("badgerobj");
+        localStorage.removeItem("protocolobj")
         window.location.reload();
     });
     

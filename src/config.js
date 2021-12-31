@@ -1,4 +1,5 @@
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
+    console.log(protocolobj);
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
@@ -30,6 +31,7 @@ window.addEventListener("load", () => {
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
     }
+    var colorButton = document.getElementById('colorButton');
     colorButton.addEventListener("click", function() {
         localStorage.bodyColor = document.getElementById('bodyColor').value;
         localStorage.titleColor = document.getElementById('titleColor').value;
@@ -44,6 +46,7 @@ window.addEventListener("load", () => {
         r.style.setProperty('--buttonColor',localStorage.buttonColor);  
         r.style.setProperty('--buttonBColor',localStorage.buttonBColor);                       
     });
+    var fontButton = document.getElementById('fontButton');
     fontButton.addEventListener("click", function() {
         localStorage.titleF = document.getElementById('titleFont').value;
         localStorage.subtitleF = document.getElementById('subtitleFont').value;
@@ -54,6 +57,7 @@ window.addEventListener("load", () => {
         r.style.setProperty('--buttonTextFont',localStorage.buttonTextF);
         r.style.setProperty('--textFont',localStorage.textF);        
     });
+    var resetButton = document.getElementById('resetButton');
     resetButton.addEventListener("click", function() {
         localStorage.removeItem('bodyColor');
         localStorage.removeItem('titleColor');

@@ -1,4 +1,20 @@
 window.addEventListener("load", () => {
+    if(location.protocol == 'https:') {
+        localStorage.protocolobj = 0;
+        if(localStorage.protocolobj != 1){
+            console.log("ola");
+            localStorage.protocolobj = 1;
+            console.log(localStorage.protocolobj);
+            if(typeof localStorage.points === "undefined") {
+                localStorage.points = 0;
+            }
+            localStorage.points = parseInt(localStorage.points) + 1;
+            console.log(localStorage.points);
+        }
+    }
+});
+
+window.addEventListener("DOMContentLoaded", () => {
     var r = document.querySelector(':root');
     if (localStorage.bodyColor) {
         r.style.setProperty('--bodyColor',localStorage.bodyColor);
@@ -30,10 +46,9 @@ window.addEventListener("load", () => {
     if(localStorage.textF){
         r.style.setProperty('--textFont',localStorage.textF);  
     }
-
+    var on_off = document.getElementById('on_off');
     on_off.addEventListener("click", function() {
         var btn = document.getElementById("on_off");
-
         if (btn.value == "Ligado") {
             btn.value = "Desligado";
             btn.innerHTML = "Desligado";
@@ -42,5 +57,5 @@ window.addEventListener("load", () => {
             btn.value = "Ligado";
             btn.innerHTML = "Ligado";
         }        
-    });                
+    });             
 });
