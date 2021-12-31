@@ -60,7 +60,7 @@ In this work, it is intended an analysis of the existing solutions for security/
 ### &nbsp; :sparkles: Autores&nbsp;/Authors&nbsp; :sparkles:
 
 ##### :busts_in_silhouette: Grupo 7 :busts_in_silhouette:
-| Nome                                                  | Número Mecanográfico |
+| Nome/Name                                             | Número Mecanográfico |
 |-------------------------------------------------------|----------------------|
 | [Cristiana Silva](https://github.com/CristianaMorais) | up201505454          |        
 | [Rui Santos](https://github.com/RSantos42)            | up201805317          |       
