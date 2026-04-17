@@ -15,7 +15,7 @@ In this work, it is intended an analysis of the existing solutions for security/
 * 📁`src`
   > All code related to the extension.
 
-* 📁`src`
+* 📁`docs`
   > :page_facing_up: Relatório_Grupo_7.pdf : Report with the description of the development of the work and the options taken.
 
 #### :inbox_tray: Installation Guide :inbox_tray:
